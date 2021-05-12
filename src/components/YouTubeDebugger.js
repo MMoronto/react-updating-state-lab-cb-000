@@ -24,6 +24,15 @@ class YouTubeDebugger extends React.Component {
       }
     })
   }
+  
+  handleClick = () => {
+    this.setState(previousState => {
+      return {
+        bitrate: previousState + 4,
+        resolution: !previousState.resolution 
+      }
+    })
+  }
 
   render() {
     return (
