@@ -32,7 +32,7 @@ class YouTubeDebugger extends React.Component {
         <button onClick={this.handleClick}>{this.state.toggled ? "8" : "12"}</button>      
       </div>
       <div>
-        <h1>{this.state.video.resolution}</h1>    
+        <h1>{this.state.video}</h1>    
         <button onClick={this.handleClick}>{this.state.toggled ? "1080p" : "720p"}</button>
       </div>
       );
