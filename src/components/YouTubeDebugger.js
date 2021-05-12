@@ -15,6 +15,14 @@ class YouTubeDebugger extends React.Component {
       }
     };
   }
+  
+  handleClick = () => {
+    this.state(previousState => {
+      return {
+        
+      }
+    })
+  }
 
   render() {
     return ();
