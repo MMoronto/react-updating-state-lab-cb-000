@@ -4,7 +4,9 @@ class DigitalClicker extends React.Component {
 
 
   render() {
-    
+    return (
+      
+      );
   }  
 }
 
